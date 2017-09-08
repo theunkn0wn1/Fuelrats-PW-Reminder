@@ -217,8 +217,5 @@ def init():
     log("init", "Hooking timer...")
     hc.hook_timer(frequency, cmd.readOut)
     log("init", "Done!")
-    log("Init", "-----------------\n{} version {} loaded successfully!\n--------------".format(__module_name__,
-                                                                                               __module_version__), 03)
-
-
+    log("Init", "-----------------\n{} version {} loaded successfully!\n--------------".format(__module_name__, __module_version__))
 init()
